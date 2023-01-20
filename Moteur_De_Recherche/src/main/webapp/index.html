@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="./style.css">
+<title>Recherche d'information</title>
+</head>
+<style>
+body
+{
+    min-height: 100vh;
+    background:linear-gradient(to right top,#c2e59c,#64b3f4);
+}
+	h1{
+	text-align: center;
+	text-transform:capitalize;
+	color:black;
+	border: 2px solid teal;
+	border-radius:20px;
+	background-color: bisque;
+	} 
+	h2{
+	text-align: center;
+	text-transform:capitalize;
+	color: black;
+	}
+	h3{
+	text-align: center;
+	text-transform:capitalize;
+	color: black;
+	}
+.ok{
+text-align: center;
+	text-transform:capitalize;
+	color: black;
+	
+	}
+	lo{
+text-align: center;
+	text-transform:capitalize;
+	color: black;
+	}
+</style>
+
+<h1>Bienvenue sur le moteur de recherche de booteur</h1>
+<form action="RechercheNet" method="post">
+<div class="lo">
+<h2>Donner votre citrere de recherche :</h2>
+<h3><input type="text" name="query" placeholder="Rechercher ici....."></h3><br>
+</div>
+<div class="ok">
+
+<label>Choisir votre moteur de recherche </label><br><br>
+<input type="radio" name="browser" value="g" checked> Google
+<input type="radio" name="browser" value="y" > Yahoo
+<input type="submit" value="Lancer la recherche"> 
+<input type="reset" value="Annuler"> 
+</div>
+</form>
+<body>
+</body>
+</html>
